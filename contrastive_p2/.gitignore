@@ -1,0 +1,37 @@
+# Contrastive P2 Pipeline – git ignore
+# =====================================
+
+# Output directory (models, logs, JSON artefacts)
+output/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and logs
+*.pt
+*.bin
+*.safetensors
+runs/
+wandb/

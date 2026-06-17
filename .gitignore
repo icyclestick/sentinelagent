@@ -1,0 +1,32 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Large Files & Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Model Outputs & Checkpoints
+sentinelagent_nli_fold*/
+sentinelagent_nli_finetuned/
+contrastive_p2_models/
+
+# OS generated files
+.DS_Store
+Thumbs.db
